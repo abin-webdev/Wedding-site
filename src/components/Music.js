@@ -13,7 +13,7 @@ export default function Music() {
 
   return (
     <audio ref={audioRef} loop>
-      <source src="/music.mp3" type="audio/mp3" />
+      <source src="/music.mpeg" type="audio/mp3" />
     </audio>
   );
 }
