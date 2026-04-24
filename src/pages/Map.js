@@ -6,13 +6,13 @@ const weddingDetails = [
   { label: "Date",  value: "January 16, 2027" },
   { label: "Time",  value: "10:45 AM – 11:20 AM" },
   { label: "Venue", value: "Corniche Convention Centre" },
-  { label: "City",  value: "Triprayar, Kerala" },
+  { label: "City",  value: "Thriprayar, Kerala" },
 ];
 
 const receptionDetails = [
   { label: "Time",  value: "6:30 PM onwards" },
   { label: "Venue", value: "Mangalath Riverview Resort" },
-  { label: "City",  value: "Kerala" },
+  { label: "City",  value: "Thriprayar, Kerala" },
 ];
 
 function Map() {
