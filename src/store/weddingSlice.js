@@ -5,7 +5,7 @@ const weddingSlice = createSlice({
   initialState: {
     targetDate: "2027-01-16T10:45:00",
     isAudioPlaying: false,
-    venue: "Corniche Convention Centre, Triprayar",
+    venue: "Corniche Convention Centre, Thriprayar",
   },
   reducers: {
     setAudioPlaying: (state, action) => {

@@ -82,7 +82,7 @@ export default function Home() {
           </div>
 
           <p className="hero-date fade-in">
-            January 16 · 2027 · Triprayar
+            January 16 · 2027 · Thriprayar
           </p>
 
           {isAudioPlaying && <p className="audio-status">♪ Music Playing</p>}
@@ -122,7 +122,7 @@ export default function Home() {
           <p style={{ marginTop: "0.6rem" }}>
             Corniche Convention Centre
           </p>
-          <p>Triprayar, Kerala</p>
+          <p>Thriprayar, Kerala</p>
         </div>
 
         <div className="details-divider">
@@ -173,7 +173,7 @@ export default function Home() {
             <span className="inv-dot">·</span>
             <span>10:45 AM</span>
             <span className="inv-dot">·</span>
-            <span>Triprayar</span>
+            <span>Thriprayar</span>
           </div>
 
           {/* Reception */}
@@ -199,7 +199,7 @@ export default function Home() {
       <footer className="home-footer">
         <p className="footer-brand">Nayana & Midhun</p>
         <p className="footer-sub">
-          January 16 · 2027 · Corniche Convention Centre
+          January 16 · 2027 · Corniche Convention Centre · Thriprayar, Kerala
         </p>
       </footer>
     </div>

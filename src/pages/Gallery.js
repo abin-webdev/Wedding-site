@@ -13,7 +13,7 @@ const photos = [
   { src: "/img8.jpeg", alt: "Memory 8" },
   { src: "/img9.jpeg", alt: "Memory 9" },
    { src: "/img10.jpeg", alt: "Memory 9" },
-      { src: "/image11.jpeg", alt: "Memory 9" },
+      { src: "/img11.jpeg", alt: "Memory 9" },
   
   
 
@@ -63,7 +63,7 @@ function Gallery() {
       </div>
 
 {/* /////// */}
-{/* ─── VIDEO SECTION ─────────────────────────── */}
+{/* ─── VIDEO SECTION ───────────────────────────
 <div className="gallery-video-section fade-in">
 
 
@@ -74,7 +74,7 @@ function Gallery() {
     muted
     loop
   />
-</div>
+</div> */}
 
 
 
