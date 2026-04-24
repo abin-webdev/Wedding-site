@@ -10,9 +10,10 @@ const weddingDetails = [
 ];
 
 const receptionDetails = [
+  { label: "Date",  value: "January 17, 2027" },
   { label: "Time",  value: "6:30 PM onwards" },
   { label: "Venue", value: "Mangalath Riverview Resort" },
-  { label: "City",  value: "Thriprayar, Kerala" },
+  { label: "City",  value: "Malayattor, Kerala" },
 ];
 
 function Map() {
