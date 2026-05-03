@@ -682,7 +682,27 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
 }
 .story-entry.reverse { direction: rtl; }
 .story-entry.reverse > * { direction: ltr; }
-.story-entry img { width: 100%; height: 100%; object-fit: cover; }
+.story-entry img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 📱 MOBILE FIX */
+@media (max-width: 768px) {
+  .story-entry {
+    grid-template-columns: 1fr;   /* stack */
+  }
+
+  .story-entry img {
+    height: auto;               /* ✅ important */
+    object-fit: contain;        /* ✅ no crop */
+  }
+
+  .story-text {
+    padding: 2rem 1.5rem;       /* better spacing */
+  }
+}
 .story-text {
   display: flex; flex-direction: column; justify-content: center;
   padding: 4rem 3.5rem; background: var(--warm-white);
