@@ -319,7 +319,7 @@ export default function Home() {
           {/* ── RSVP Button ── */}
           <div className="inv-line" style={{ marginTop: "1.5rem", opacity: 0.4 }} />
           <button className="rsvp-open-btn" onClick={() => setShowRSVP(true)}>
-            RSVP ✦
+            CLICK HERE ✦
           </button>
 
         </div>
